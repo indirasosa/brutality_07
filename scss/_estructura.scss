@@ -1,0 +1,20 @@
+//flex
+@mixin flexcenter ($flexb, $centerb) {
+    display: $flexb;
+    justify-content: $centerb;
+}
+//padding
+@mixin paddingx ($paddingl, $paddingr) {
+    padding-left: $paddingl;
+    padding-right: $paddingr;
+}
+@mixin paddingy ($paddingt, $paddingb) {
+    padding-top: $paddingt;
+    padding-bottom: $paddingb;
+}
+
+//imagenes
+$imggrande: 600px;
+
+//tipografía
+$titulos: 16px;

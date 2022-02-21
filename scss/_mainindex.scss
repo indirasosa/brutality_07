@@ -1,0 +1,22 @@
+//import
+@import "estructura";
+@import "colores";
+body {
+    .mainIndex {
+        div { 
+            div{
+                width: $imggrande;
+            }
+        }
+        div  {
+            h1 {
+                font-size: $titulos;
+                color: $blanco;
+                margin-bottom: 1rem;
+                @include paddingy (1rem, 1rem)
+                @include flexcenter (flex, center)
+                
+            }
+        }
+    }
+}
